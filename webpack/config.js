@@ -46,8 +46,7 @@ module.exports = {
         hot: true,
         proxy: {
             "/api" : {
-                target: "http://sso.33slona.ru",
-                // secure: false,
+                target: "http://localhost:3000"
             }
         },
         historyApiFallback: true,
