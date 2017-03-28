@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+node_modules
+
+dist/bundle.js
+dist/bundle.css
